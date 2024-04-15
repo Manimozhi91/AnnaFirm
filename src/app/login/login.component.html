@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div>
+    <h5 class="card-header">Admin Login Page</h5>
+    <div class="card-body">
+      <form [formGroup]="loginRef" (ngSubmit)="signIn()">
+        <div class="form-row">
+          <div class="form-group col-9">
+            <label>Email Id</label>
+            <br/>
+            <br/>
+            <input
+              type="email"
+              formControlName="emailid"
+              class="form-control" required>
+              <br/>
+             </div>
+         </div>
+            <div class="form-group col-9">
+
+                <label for="password">Password</label>
+                <br/>
+                <br/>
+                <input 
+    
+                    formControlName="password"
+    
+                    id="password" 
+    
+                    type="password" 
+                
+                    class="form-control" required>
+                    <br/>
+                    <br/>
+                    <!-- <input class="btn btn-primary" type="submit" (click)="onSubmit()" value="Submit"> -->
+                <div>
+                    <input  class="btn btn-info" type="submit" value="SignIn"/>
+                    <input  class="btn btn-info" type="reset" value="Reset"/>
+                <br/>
+                <span style="color:red">{{msg}}</span>
+                    <br/>
+                </div>
+            </div>
+                </form>
+   
+    
+                </div>
+            </div>
+
+
+

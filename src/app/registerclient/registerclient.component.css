@@ -1,0 +1,100 @@
+
+.card-body{
+    padding: 20px;
+
+    border-radius: 25px;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 5%;
+background-color: #d0dfed;
+color: rgb(43, 43, 107);
+
+}
+h2{
+    color: blueviolet;
+}
+.card-header{
+  font-size: large;
+  color:rgb(33, 33, 86);
+  padding-left: 5%;
+
+  background-color: #80bdff;
+}
+.btn{
+   margin-left: 3%; 
+}
+#clientregistration{
+  text-align:left;
+
+  border: 1px 1px 1px ;
+  padding-left: 5%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+}
+
+
+button, input {
+overflow: visible;
+}
+button, input, optgroup, select, textarea {
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+}
+.text-center{
+display: -ms-flexbox;
+display: contents;
+
+}
+.form-control {
+display: block;
+width: 100%;
+height: calc(1.5em + 0.75rem + 2px);
+padding: 0.375rem 0.75rem;
+font-size: 2rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.container {
+font-weight: 600;
+position: relative;
+
+}
+
+
+.card {
+position: relative;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: 0.25rem;
+}
+
+p {
+font-family: Lato;
+}
+.error-message {
+color: 
+red;
+}
+input.ng-touched.ng-invalid {
+border: 1px solid 
+red;
+}

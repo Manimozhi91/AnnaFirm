@@ -1,0 +1,144 @@
+
+<div class="card m-3">
+    <div class="container"> 
+     
+        <h2>Register Client</h2>
+        <div class="form-row" >
+    
+
+
+    
+</div>
+    <div class="card-body">
+      <form [formGroup]="registerForm" (ngSubmit)=" addclient()" >
+        <div class="form-row" >
+            <div class="form-group col-9">
+                <label>User Name</label>
+                <input
+                  type="text"
+                  formControlName="username"
+                  class="form-control"
+                  [ngClass]="{ 'is-invalid': submitted && f.username.errors }"/>
+                  <br/>
+                <div *ngIf=" f.username.errors&& f.username.touched && f.username.invalid" class="alert alert-danger">
+                  <div *ngIf="f.username.errors.required">
+                    Full Name is required
+                  </div>
+                </div>
+              </div>
+          <div class="form-group col-9">
+            <label>Full Name</label>
+            <input
+              type="text"
+              formControlName="fullName"
+              class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f.fullName.errors }"/>
+              <br/>
+            <div *ngIf=" f.fullName.errors&& f.fullName.touched && f.fullName.invalid" class="alert alert-danger">
+              <div *ngIf="f.fullName.errors.required">
+                Full Name is required
+              </div>
+            </div>
+          </div>
+          <div class="form-group col-9">
+            <label>Address</label>
+            <input
+              type="text"
+              formControlName="address"
+              class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f.address.errors }"
+            />
+            <br/>
+
+            <div *ngIf="f.address.touched && f.address.invalid  && f.address.errors" class="alert alert-danger">
+              <div *ngIf="f.address.errors.required">Address is required</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-9">
+          <label>Email</label>
+          <input
+            type="text"
+            formControlName="emailid"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f.emailid.errors }"
+          />
+          <br/>
+
+          <div *ngIf="f.emailid.touched && f.emailid.invalid  && f.emailid.errors" class="alert alert-danger">
+            <div *ngIf="f.emailid.errors?.required">Email is required or Invalid email address 
+          
+          </div>
+        </div>
+    </div>
+        <div class="form-group col-9">
+
+            <label for="password">Password</label>
+
+            <input 
+
+                formControlName="password"
+
+                id="password" 
+
+                type="password" 
+                minlength="6"
+                class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+                <br/>
+
+            <div *ngIf="f.password.touched && f.password.invalid  && f.password.errors" class="alert alert-danger">
+
+                <div *ngIf="f.password.errors?.required">Password is required or Mininum 6 character is required.
+                
+                </div>
+            </div>
+
+        </div>
+         
+        <div class="form-group col-9">
+            <label>ImageUrl</label>
+            <input
+              type="url"
+              formControlName="img"
+              class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f.img.errors }"
+            />
+            <br/>
+  
+            <div *ngIf="f.img.touched && f.img.invalid  && f.img.errors" class="alert alert-danger">
+              <div *ngIf="f.img.errors?.required">Add image Url or Invalid Url
+            </div>
+              
+            </div>
+            <label>Contact</label>
+            <input
+              type="tel"
+              formControlName="contact"
+              class="form-control"
+              maxlength="10"
+
+              pattern="[0-9]{3}[0-9]{2}[0-9]{2}[0-9]{3}"
+              [ngClass]="{ 'is-invalid': submitted && f.contact.errors }"
+            />
+            <br/>
+
+            <div *ngIf="f.contact.touched && f.contact.invalid  && f.contact.errors" class="alert alert-danger">
+                
+              <div *ngIf="f.contact.errors.required">Contact is required  or Invalid Contact number         
+            </div>
+           
+            </div>
+          </div>
+          
+        <div class="text-center">
+          <button class="btn btn-primary mr-1" >Register</button>
+          <button class="btn btn-secondary" type="reset" (click)="onReset()">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+
+
+

@@ -1,0 +1,44 @@
+<div>
+
+</div>
+<div class="card-body">
+    
+    <form [formGroup]="meetingRef" (ngSubmit)=" addMeetings()" >
+
+         
+            <h2>Meeting Topic</h2>
+              <input type="text"   formControlName="meetingTopic"
+              id="meetingTopic" > 
+                <br/>
+                <br/>
+             <h2>Number of Participants</h2>  
+                <input type="number" formControlName="noOfParticipants" min="1" max="20" id ="noOfParticipants">      
+                <br/>
+                <br/>
+              <h2>Meeting Date</h2> 
+ 
+              <mat-form-field>
+                <mat-label>Choose a date</mat-label>
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <input  formControlName =meetingDate matInput [min]="startDate" [matDatepicker]="picker">
+                
+                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker id="meetingDate"></mat-datepicker>
+              <br>
+
+              </mat-form-field> 
+              <h2>Meeting Time</h2> 
+                      <input [ngxTimepicker]="timepicker" id ="meetingTime" formControlName =meetingTime >
+                    <ngx-material-timepicker #timepicker></ngx-material-timepicker>
+                  <br>
+
+                  <br>
+   
+<div class="text-center">
+  <button class="btn btn-primary mr-1" >Submit</button>
+  <button class="btn btn-secondary" type="reset" (click)="onReset()">Reset</button>
+</div>
+
+
+</form>
+</div>

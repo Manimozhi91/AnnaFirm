@@ -1,0 +1,22 @@
+.card-body{
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding: 20px;
+
+    border-radius: 25px;
+  background-color: #d0dfed;
+  color: rgb(43, 43, 107);
+  
+   }
+    .card-header{
+      font-size: large;
+      color:rgb(232, 232, 238);
+
+  
+    }
+    .table table-hover{
+      border:1 ;
+      text-align:center
+    }
+ 

@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "John",
+      "fullName": "John Snow",
+      "address": " Norway Street,Los Angeles,California,US",
+      "emailid": "john.snow@gmail.com",
+      "password": "john@123",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBJT5wHCiGz1_ahHSkMCToJutWRc7_GtpEklerkC0wtu0zj9j0mRsCuUVCWRx4gtCQkc&usqp=CAU",
+      "contact": "9849485545"
+    },
+    {
+      "id": "2",
+      "username": "Will",
+      "fullName": "Will Smith",
+      "address": "301 Houston Street, Houston,Texas, US",
+      "emailid": "will.smith@gmail.com",
+      "password": "will@123",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aqwoL7VUtABCU-Ue2Bv_q56l_sreWwmyD93AXMwILHNASxrMvOei2xL1MVvnslIxo28&usqp=CAU",
+      "contact": "42343434545"
+    },
+    {
+      "id": "3",
+      "username": "Mani",
+      "fullName": "Manimozhi",
+      "address": "34 Anna nagar Chennai",
+      "emailid": "mani@gmail.com",
+      "password": "95444477",
+      "img": "https://static.vecteezy.com/system/resources/previews/029/271/069/original/avatar-profile-icon-in-flat-style-female-user-profile-illustration-on-isolated-background-women-profile-sign-business-concept-vector.jpg",
+      "contact": 9865545444
+    },
+    {
+      "id": "4",
+      "username": "anitha",
+      "fullName": "Anitha",
+      "address": "67 west Street Chennai",
+      "emailid": "ani@gmail.com",
+      "password": "vyuge6777",
+      "img": "https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb.jpg",
+      "contact": 7899676899
+    },
+    {
+      "id": "5",
+      "username": "Bala",
+      "fullName": "Bala",
+      "address": "78 Sanjiv Nagar, Bangalore , Karnataka",
+      "emailid": "bala@gmail.com",
+      "password": "dfgafgj65",
+      "img": "https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg",
+      "contact": 789998885
+    },
+    {
+      "id": "6",
+      "username": "Mohmad",
+      "fullName": "Mohmad ",
+      "address": "567 Park Avenue , Velachery, Chennai",
+      "emailid": "mohmad@gmail.com",
+      "password": "ggtrfw6676",
+      "img": "https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg",
+      "contact": 787965788
+    },
+    {
+      "id": "51",
+      "username": "Sasi",
+      "fullName": "Sasi Kumar",
+      "address": "21 Velachery Chennai",
+      "emailid": "sasi@gmail.com",
+      "password": "sdfsdffd",
+      "img": "https://i.pinimg.com/564x/a6/58/32/a65832155622ac173337874f02b218fb.jpg",
+      "contact": "9578888888"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "1",
+      "meetingTopic": "Cost Estimation",
+      "noOfParticipants": 5,
+      "meetingDate": "2024-09-0718:30:00.000Z",
+      "meetingTime": "10.00 AM"
+    },
+    {
+      "id": "2",
+      "meetingTopic": "Planning",
+      "noOfParticipants": 8,
+      "meetingDate": "2024-06-2018:30:00.000Z",
+      "meetingTime": "10.00 AM"
+    },
+    {
+      "id": "3",
+      "meetingTopic": "Time Estimation",
+      "noOfParticipants": 8,
+      "meetingDate": "2024-2-2018:30:00.000Z",
+      "meetingTime": "09.00 AM"
+    },
+    {
+      "id": "4",
+      "meetingTopic": "client meeting",
+      "noOfParticipants": 7,
+      "meetingDate": "2024-06-2018:30:00.000Z",
+      "meetingTime": "11.00 AM"
+    },
+    {
+      "id": "5",
+      "meetingTopic": "Design Discussion",
+      "noOfParticipants": 9,
+      "meetingDate": "2024-04-2418:30:00.000Z",
+      "meetingTime": "11.00 AM"
+    },
+    {
+      "id": "12",
+      "meetingTopic": "Design",
+      "noOfParticipants": 19,
+      "meetingDate": "2024-04-26T18:30:00.000Z",
+      "meetingTime": "2:18 AM"
+    },
+    {
+      "id": "6",
+      "meetingTopic": "Cost",
+      "noOfParticipants": 6,
+      "meetingDate": "2024-04-19T18:30:00.000Z",
+      "meetingTime": "4:24 AM"
+    },
+    {
+      "id": "897",
+      "meetingTopic": "Time Estimation",
+      "noOfParticipants": 4,
+      "meetingDate": "2024-04-19T18:30:00.000Z",
+      "meetingTime": "12:05 AM"
+    },
+    {
+      "id": "20",
+      "meetingTopic": "Status Discussion",
+      "noOfParticipants": 17,
+      "meetingDate": "2024-04-29T18:30:00.000Z",
+      "meetingTime": "9:45 AM"
+    },
+    {
+      "id": "95",
+      "meetingTopic": "Deavelopment Discussion",
+      "noOfParticipants": 6,
+      "meetingDate": "2024-04-26T18:30:00.000Z",
+      "meetingTime": "9:37 AM"
+    },
+    {
+      "id": "42",
+      "meetingTopic": "Planning",
+      "noOfParticipants": 20,
+      "meetingDate": "2024-04-22T18:30:00.000Z",
+      "meetingTime": "4:00 PM"
+    }
+  ]
+}

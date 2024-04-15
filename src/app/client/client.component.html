@@ -1,0 +1,45 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+<div>
+    <h1  class="card-header">CLIENT INFORMATION</h1>
+    
+    <div class="card-body">
+   <table  class="table table-hover" >
+    <tr>
+        <th>IMAGE</th>
+        <th>CID</th>
+        <th>USERNAME</th>
+        <th>FULLNAME</th>
+        <th>ADDRESS</th>
+        <th>EMAIL</th>
+        <th>CONTACT</th>
+        <th>DELETE </th>
+
+    </tr>
+    <!-- <form  [formGroup]="userRef"> -->
+    <tr *ngFor="let client of client">
+        <td><img src={{client.img}} width="100px" height="100x"/></td>
+
+        <td >{{client.id | number}}</td>
+        <td >{{client.username}}</td>
+        <td>{{client.fullName}}</td>
+        <td>{{client.emailid}}</td>
+        <td>{{client.address}}</td>
+        <td>{{client.contact}}</td>
+        <td>
+            
+            <i class="material-icons" style="font-size:40px;color:red" (click)="deleteUser(client.id)">delete
+            </i> 
+        </td>
+       
+
+    </tr>
+   </table>
+</div>
+</div>
+
+
